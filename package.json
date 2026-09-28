@@ -1,0 +1,26 @@
+{
+  "name": "@journey-to-code-org/open-text",
+  "version": "1.0.0",
+  "description": "Small, dependency-free text analysis utilities for browsers and Node.js.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["text", "analysis", "word-count", "character-count", "reading-time", "unicode", "open-web"],
+  "license": "MIT",
+  "sideEffects": false
+}
