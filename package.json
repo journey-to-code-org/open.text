@@ -1,6 +1,6 @@
 {
   "name": "@journey-to-code/open-text",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small, dependency-free text analysis utilities for browsers and Node.js.",
   "type": "module",
   "main": "./src/index.js",
